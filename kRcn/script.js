@@ -29,7 +29,6 @@ allLinks.forEach((elem) => {
   });
 });
 
-//? handle proper selection for initial load
 const currentHash = window.location.hash;
 
 let activeLink = document.querySelector(`.tabs a`);
